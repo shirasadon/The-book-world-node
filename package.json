@@ -1,0 +1,39 @@
+{
+  "name": "project-node-shir-shira-matan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon node .",
+    "fix": "npx prettier --write .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "crypto": "1.0.1",
+    "express": "4.17.2",
+    "joi": "17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "6.2.1",
+    "morgan": "^1.10.0",
+    "path": "0.12.7",
+    "validator": "^13.7.0",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "chalk": "4.1.1",
+    "lodash": "4.17.21",
+    "nodemon": "2.0.15",
+    "prettier": "2.5.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
